@@ -1,0 +1,10 @@
+body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[54];
+  -ms-grid-columns: (1fr)[12];
+      grid-template: repeat(54, 1fr)/repeat(12, 1fr);
+  width: 80%;
+  height: 200vh;
+  background-color: aqua;
+}
