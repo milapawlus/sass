@@ -10,6 +10,7 @@
           column-gap: 18px;
   width: 80%;
   height: 100%;
+  background-color: rgb(98, 158, 90);
 }
 
 .nav {
@@ -100,6 +101,104 @@
   font-size: 15px;
   line-height: 0px;
   opacity: 0.6;
+}
+
+.gallery__img12, .gallery__img11, .gallery__img10, .gallery__img9, .gallery__img8, .gallery__img7, .gallery__img6, .gallery__img5, .gallery__img4, .gallery__img3, .gallery__img2, .gallery__img1 {
+  height: 100%;
+  width: 100%;
+}
+
+.gallery {
+  -ms-grid-row: 9;
+  -ms-grid-row-span: 27;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 12;
+  grid-area: 9/1/36/13;
+  background-color: bisque;
+}
+.gallery__img1 {
+  -ms-grid-row: 9;
+  -ms-grid-row-span: 6;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: 9/1/15/5;
+}
+.gallery__img2 {
+  -ms-grid-row: 9;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 4;
+  grid-area: 9/5/14/9;
+}
+.gallery__img3 {
+  -ms-grid-row: 9;
+  -ms-grid-row-span: 8;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 4;
+  grid-area: 9/9/17/13;
+}
+.gallery__img4 {
+  -ms-grid-row: 15;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: 15/1/22/5;
+}
+.gallery__img5 {
+  -ms-grid-row: 14;
+  -ms-grid-row-span: 6;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 4;
+  grid-area: 14/5/20/9;
+}
+.gallery__img6 {
+  -ms-grid-row: 17;
+  -ms-grid-row-span: 6;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 4;
+  grid-area: 17/9/23/13;
+}
+.gallery__img7 {
+  -ms-grid-row: 22;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: 22/1/29/5;
+}
+.gallery__img8 {
+  -ms-grid-row: 20;
+  -ms-grid-row-span: 8;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 4;
+  grid-area: 20/5/28/9;
+}
+.gallery__img9 {
+  -ms-grid-row: 23;
+  -ms-grid-row-span: 8;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 4;
+  grid-area: 23/9/31/13;
+}
+.gallery__img10 {
+  -ms-grid-row: 29;
+  -ms-grid-row-span: 7;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: 29/1/36/5;
+}
+.gallery__img11 {
+  -ms-grid-row: 28;
+  -ms-grid-row-span: 8;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 4;
+  grid-area: 28/5/36/9;
+}
+.gallery__img12 {
+  -ms-grid-row: 31;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 4;
+  grid-area: 31/9/36/13;
 }
 
 body {

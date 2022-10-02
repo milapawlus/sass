@@ -6,7 +6,7 @@
     column-gap: 18px;
     width: 80%;
     height: 100%;
-    // background-color: rgb(98, 158, 90);
+    background-color: rgb(98, 158, 90);
 }
 
 .nav {
@@ -58,19 +58,89 @@
 }
 
 .caption {
-    grid-area: 6 /10/ 7/ 12;
+    grid-area: 6 / 10 / 7 / 12;
 
     &__underscore {
         opacity: 0.5;
     }
 
     &__heading {
-        grid-area: 6 /10/ 7/ 12;
+        grid-area: 6 / 10 / 7 / 12;
         font-family: variables.$text_font;
         font-style: italic;
         font-weight: 400;
         font-size: 15px;
         line-height: 0px;
         opacity: 0.6;
+    }
+}
+
+%gallery__img {
+    height: 100%;
+    width: 100%;
+}
+
+.gallery {
+    grid-area: 9 / 1 / 36 / 13;
+    background-color: bisque;
+
+    &__img1 {
+        @extend %gallery__img;
+        grid-area: 9 / 1 / 15 / 5;
+    }
+
+    &__img2 {
+        @extend %gallery__img;
+        grid-area: 9 / 5 / 14 / 9;
+    }
+
+    &__img3 {
+        @extend %gallery__img;
+        grid-area: 9 / 9 / 17 / 13;
+    }
+
+    &__img4 {
+        @extend %gallery__img;
+        grid-area: 15 / 1 / 22 / 5;
+    }
+
+    &__img5 {
+        @extend %gallery__img;
+        grid-area: 14 / 5 / 20 / 9;
+    }
+
+    &__img6 {
+        @extend %gallery__img;
+        grid-area: 17 / 9 / 23 / 13;
+    }
+
+    &__img7 {
+        @extend %gallery__img;
+        grid-area: 22 / 1 / 29 / 5;
+    }
+
+    &__img8 {
+        @extend %gallery__img;
+        grid-area: 20 / 5 / 28 / 9;
+    }
+
+    &__img9 {
+        @extend %gallery__img;
+        grid-area: 23 / 9 / 31 / 13;
+    }
+
+    &__img10 {
+        @extend %gallery__img;
+        grid-area: 29 / 1 / 36 / 5;
+    }
+
+    &__img11 {
+        @extend %gallery__img;
+        grid-area: 28 / 5 / 36 / 9;
+    }
+
+    &__img12 {
+        @extend %gallery__img;
+        grid-area: 31 / 9 / 36 / 13;
     }
 }
