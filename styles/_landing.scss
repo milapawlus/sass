@@ -6,7 +6,6 @@
     column-gap: 18px;
     width: 80%;
     height: 100%;
-    background-color: rgb(98, 158, 90);
 }
 
 .nav {
@@ -29,12 +28,16 @@
     }
 
     &__options a {
-        text-decoration: none;
-        font-weight: 700;
-        font-size: 18px;
-        color: variables.$text_color;
-        font-family: variables.$text_font;
+        @extend %nav__links;
     }
+}
+
+%nav__links {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: variables.$text_color;
+    font-family: variables.$text_font;
 }
 
 .heading {
@@ -55,6 +58,10 @@
         font-size: 40px;
         line-height: 60px;
         font-family: variables.$text_font;
+    }
+
+    &__color {
+        color: #4A4FF2
     }
 }
 
@@ -314,5 +321,27 @@
     &__year4 {
         @extend %year__content;
         grid-area: 50 / 12 / 51 / 13;
+    }
+}
+
+.footer {
+    grid-area: 55 / 1 / 56 / 13;
+
+    &__logo {
+        grid-area: 55 / 1 / 56 / 3;
+    }
+
+    &__link1 {
+        @extend %nav__links;
+        grid-area: 55 / 9 / 56 / 10;
+    }
+
+    &__link2 {
+        @extend %nav__links;
+        grid-area: 55 / 10 / 56 / 11;
+    }
+
+    &__icons {
+        grid-area: 55 / 12 / 56 / 13;
     }
 }
