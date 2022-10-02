@@ -223,12 +223,10 @@
 
 .group__p {
   font-family: "Mulish", sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 23px;
   color: #111111;
-  mix-blend-mode: normal;
   opacity: 0.6;
 }
 
@@ -245,6 +243,198 @@
   grid-area: 37/9/39/13;
 }
 
+.awards__2, .awards__1 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: #111111;
+}
+
+.awards__type4, .awards__type3, .awards__type2, .awards__type1 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #111111;
+}
+
+.awards__info4, .awards__info3, .awards__info2, .awards__info1 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #111111;
+}
+
+.awards__line3, .awards__line2, .awards__line1 {
+  background-color: #D8D8D8;
+  width: 100%;
+  height: 2px;
+}
+
+.awards__year4, .awards__year3, .awards__year2, .awards__year1 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #111111;
+}
+
+.awards {
+  -ms-grid-row: 40;
+  -ms-grid-row-span: 14;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 12;
+  grid-area: 40/1/54/13;
+}
+.awards__1 {
+  -ms-grid-row: 41;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: 41/1/42/3;
+}
+.awards__2 {
+  -ms-grid-row: 47;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: 47/1/48/4;
+}
+.awards__type1 {
+  -ms-grid-row: 41;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 2;
+  grid-area: 41/6/42/8;
+}
+.awards__type2 {
+  -ms-grid-row: 44;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 2;
+  grid-area: 44/6/45/8;
+}
+.awards__type3 {
+  -ms-grid-row: 47;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 2;
+  grid-area: 47/6/48/8;
+}
+.awards__type4 {
+  -ms-grid-row: 50;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 2;
+  grid-area: 50/6/51/8;
+}
+.awards__info1 {
+  -ms-grid-row: 41;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 2;
+  grid-area: 41/9/42/11;
+}
+.awards__info2 {
+  -ms-grid-row: 44;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 2;
+  grid-area: 44/9/45/11;
+}
+.awards__info3 {
+  -ms-grid-row: 47;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 2;
+  grid-area: 47/9/48/11;
+}
+.awards__info4 {
+  -ms-grid-row: 50;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 2;
+  grid-area: 50/9/51/11;
+}
+.awards__desc1 {
+  -ms-grid-row: 42;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 2;
+  grid-area: 42/9/43/11;
+}
+.awards__desc2 {
+  -ms-grid-row: 45;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 2;
+  grid-area: 45/9/46/11;
+}
+.awards__desc3 {
+  -ms-grid-row: 48;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 2;
+  grid-area: 48/9/49/11;
+}
+.awards__desc4 {
+  -ms-grid-row: 51;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 2;
+  grid-area: 51/9/52/11;
+}
+.awards__line1 {
+  -ms-grid-row: 40;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 12;
+  grid-area: 40/1/41/13;
+}
+.awards__line2 {
+  -ms-grid-row: 46;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 12;
+  grid-area: 46/1/46/13;
+}
+.awards__line3 {
+  -ms-grid-row: 53;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 12;
+  grid-area: 53/1/54/13;
+}
+.awards__year1 {
+  -ms-grid-row: 41;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 12;
+  -ms-grid-column-span: 1;
+  grid-area: 41/12/42/13;
+}
+.awards__year2 {
+  -ms-grid-row: 44;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 12;
+  -ms-grid-column-span: 1;
+  grid-area: 44/12/45/13;
+}
+.awards__year3 {
+  -ms-grid-row: 47;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 12;
+  -ms-grid-column-span: 1;
+  grid-area: 47/12/48/13;
+}
+.awards__year4 {
+  -ms-grid-row: 50;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 12;
+  -ms-grid-column-span: 1;
+  grid-area: 50/12/51/13;
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -253,5 +443,5 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  height: 400vh;
+  height: 500vh;
 }

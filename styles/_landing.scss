@@ -160,12 +160,10 @@
 
 %group__content {
     font-family: variables.$text_font;
-    font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 23px;
     color: variables.$text_color;
-    mix-blend-mode: normal;
     opacity: 0.6;
 }
 
@@ -174,4 +172,147 @@
     display: flex;
     justify-content: space-around;
     grid-area: 37 / 9 / 39 / 13;
+}
+
+%awards__content {
+    font-family: variables.$text_font;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: variables.$text_color;
+}
+
+%type__content {
+    font-family: variables.$text_font;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: variables.$text_color;
+}
+
+%info__content {
+    font-family: variables.$text_font;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: variables.$text_color;
+}
+
+%line__content {
+    background-color: #D8D8D8;
+    width: 100%;
+    height: 2px;
+}
+
+%year__content {
+    font-family: variables.$text_font;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: variables.$text_color;
+}
+
+.awards {
+    grid-area: 40 / 1 / 54 / 13;
+
+    &__1 {
+        @extend %awards__content;
+        grid-area: 41 / 1 / 42 / 3;
+    }
+
+    &__2 {
+        @extend %awards__content;
+        grid-area: 47 / 1 / 48 / 4;
+    }
+
+    &__type1 {
+        @extend %type__content;
+        grid-area: 41 / 6 / 42 / 8;
+    }
+
+    &__type2 {
+        @extend %type__content;
+        grid-area: 44 / 6 / 45 / 8;
+    }
+
+    &__type3 {
+        @extend %type__content;
+        grid-area: 47 / 6 / 48 / 8;
+    }
+
+    &__type4 {
+        @extend %type__content;
+        grid-area: 50 / 6 / 51 / 8;
+    }
+
+    &__info1 {
+        @extend %info__content;
+        grid-area: 41 / 9 / 42 / 11;
+    }
+
+    &__info2 {
+        @extend %info__content;
+        grid-area: 44 / 9 / 45 / 11;
+    }
+
+    &__info3 {
+        @extend %info__content;
+        grid-area: 47 / 9 / 48 / 11;
+    }
+
+    &__info4 {
+        @extend %info__content;
+        grid-area: 50 / 9 / 51 / 11;
+    }
+
+    &__desc1 {
+        grid-area: 42 / 9 / 43 / 11;
+    }
+
+    &__desc2 {
+        grid-area: 45 / 9 / 46 / 11;
+    }
+
+    &__desc3 {
+        grid-area: 48 / 9 / 49 / 11;
+    }
+
+    &__desc4 {
+        grid-area: 51 / 9 / 52 / 11;
+    }
+
+    &__line1 {
+        @extend %line__content;
+        grid-area: 40 / 1 / 41 / 13;
+    }
+
+    &__line2 {
+        @extend %line__content;
+        grid-area: 46 / 1 / 46 / 13;
+    }
+
+    &__line3 {
+        @extend %line__content;
+        grid-area: 53 / 1 / 54 / 13;
+    }
+
+    &__year1 {
+        @extend %year__content;
+        grid-area: 41 / 12 / 42 / 13;
+    }
+
+    &__year2 {
+        @extend %year__content;
+        grid-area: 44 / 12 / 45 / 13;
+    }
+
+    &__year3 {
+        @extend %year__content;
+        grid-area: 47 / 12 / 48 / 13;
+    }
+
+    &__year4 {
+        @extend %year__content;
+        grid-area: 50 / 12 / 51 / 13;
+    }
 }
