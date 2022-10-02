@@ -1,12 +1,13 @@
 .container {
   display: -ms-grid;
   display: grid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-grid-columns: (1fr)[12];
+  -ms-grid-columns: 1fr 18px 1fr 18px 1fr 18px 1fr 18px 1fr 18px 1fr 18px 1fr 18px 1fr 18px 1fr 18px 1fr 18px 1fr 18px 1fr;
   grid-template-columns: repeat(12, 1fr);
   grid-auto-rows: 60px;
+  row-gap: 8px;
+  -webkit-column-gap: 18px;
+     -moz-column-gap: 18px;
+          column-gap: 18px;
   width: 80%;
   height: 100%;
 }
@@ -33,18 +34,11 @@
           align-items: center;
 }
 .nav__options {
-  width: 15%;
-}
-.nav__options ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  width: 19%;
 }
 .nav__options li {
   display: inline;
+  padding-left: 20px;
 }
 .nav__options a {
   text-decoration: none;
@@ -52,6 +46,60 @@
   font-size: 18px;
   color: #111111;
   font-family: "Mulish", sans-serif;
+}
+
+.heading {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 7;
+  grid-area: 3/1/7/8;
+}
+.heading__1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: 3/1/4/3;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  font-family: "Mulish", sans-serif;
+}
+.heading__2 {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 7;
+  grid-area: 4/1/7/8;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  font-family: "Mulish", sans-serif;
+}
+
+.caption {
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 10;
+  -ms-grid-column-span: 2;
+  grid-area: 6/10/7/12;
+}
+.caption__underscore {
+  opacity: 0.5;
+}
+.caption__heading {
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 10;
+  -ms-grid-column-span: 2;
+  grid-area: 6/10/7/12;
+  font-family: "Mulish", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 0px;
+  opacity: 0.6;
 }
 
 body {
