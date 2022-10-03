@@ -1,0 +1,9 @@
+@use 'variables';
+
+@import 'project';
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

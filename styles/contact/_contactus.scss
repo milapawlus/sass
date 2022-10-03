@@ -1,0 +1,136 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: 60px;
+    row-gap: 8px;
+    column-gap: 18px;
+    width: 80%;
+    height: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    grid-area: 2 / 1 / 3 / 13;
+
+    &__logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    &__options {
+        width: 19%;
+    }
+
+    &__options li {
+        display: inline;
+        padding-left: 20px;
+    }
+
+    &__options a {
+        @extend %nav__links;
+    }
+}
+
+%nav__links {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: variables.$text_color;
+    font-family: variables.$text_font;
+}
+
+.heading {
+    grid-area: 4 / 1 / 7 / 5;
+
+    &__1 {
+        grid-area: 3 / 1 / 6 / 5;
+        font-style: normal;
+        font-size: 35px;
+        line-height: 55px;
+        font-family: variables.$text_font;
+        color: variables.$text_color;
+    }
+
+    &__caption {
+        grid-area: 6 / 1 / 7 / 5;
+        font-size: 14px;
+        font-family: variables.$text_font;
+        color: variables.$text_color;
+        opacity: 0.6;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-area: 4 / 8 / 8 / 13 ;
+
+    &__label {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        font-family: variables.$text_font;
+        color: variables.$text_color;
+        opacity: 0.6;
+    }
+
+    &__input {
+        border: none;
+        resize: none;
+        outline: none;
+    }
+
+    &__btn {
+        width: 125px;
+        height: 50px;
+        background: #4A4FF2;
+        font-family: variables.$text_font;
+        font-size: 16px;
+        line-height: 20px;
+        border: none;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__divider {
+        width: 100%;
+        background: #D8D8D8;
+        mix-blend-mode: normal;
+        opacity: 0.3;
+        border: 1px solid #979797;
+    }
+}
+
+.map {
+    grid-area: 10 / 1 / 19 / 13;
+
+    &__img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.footer {
+    grid-area: 20 / 1 / 21 / 13;
+
+    &__logo {
+        grid-area:20 / 1 / 21 /13 ;
+    }
+
+    &__link1 {
+        @extend %nav__links;
+        grid-area: 20 / 9 / 21 / 10;
+    }
+
+    &__link2 {
+        @extend %nav__links;
+        grid-area: 20 / 10 / 21 / 11;
+    }
+
+    &__icons {
+        grid-area: 20 / 12 / 21 / 13;
+    }
+}
+

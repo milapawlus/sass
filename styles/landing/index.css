@@ -223,7 +223,7 @@
   line-height: 32px;
 }
 
-.group__p {
+.awards__desc4, .awards__desc3, .awards__desc2, .awards__desc1, .group__p {
   font-family: "Mulish", sans-serif;
   font-weight: 400;
   font-size: 15px;
@@ -396,10 +396,11 @@
   grid-area: 40/1/41/13;
 }
 .awards__line2 {
-  -ms-grid-row: 46;
+  -ms-grid-row: 47;
+  -ms-grid-row-span: 1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 12;
-  grid-area: 46/1/46/13;
+  grid-area: 47/1/48/13;
 }
 .awards__line3 {
   -ms-grid-row: 53;
