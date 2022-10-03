@@ -94,6 +94,14 @@
         text-align: center;
         color: #FFFFFF;
     }
+
+    &__divider {
+        width: 100%;
+        background: #D8D8D8;
+        mix-blend-mode: normal;
+        opacity: 0.3;
+        border: 1px solid #979797;
+    }
 }
 
 .map {
