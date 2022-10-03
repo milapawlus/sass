@@ -74,6 +74,86 @@
     line-height: 26px;
     font-family: variables.$text_font;
     color: variables.$text_color;
-    mix-blend-mode: normal;
     opacity: 0.8;
+}
+
+.details {
+    grid-area: 4 / 9 / 10 / 13;
+
+    &__project {
+        @extend %details__content;
+        grid-area: 4 / 9 / 5 / 10;
+    }
+
+    &__design {
+        @extend %details__content;
+        grid-area: 5 / 9 / 6 / 10;
+    }
+
+    &__client {
+        @extend %details__content;
+        grid-area: 6 / 9 / 7 / 10;
+    }
+
+    &__deliver {
+        @extend %details__content;
+        grid-area: 7 / 9 / 8 / 10;
+    }
+
+    &__year {
+        @extend %details__content;
+        grid-area: 8 / 9 / 9 / 10;
+    }
+
+    &__field {
+        @extend %details__content;
+        grid-area: 9 / 9 / 10 / 10;
+    }
+
+    &__project_v {
+        @extend %details__values;
+        grid-area: 4 / 11 / 5 / 13;
+    }
+
+    &__design_v {
+        @extend %details__values;
+        grid-area: 5 / 11 / 6 / 13;
+    }
+
+    &__client_v {
+        @extend %details__values;
+        grid-area: 6 / 11 / 7 / 13;
+    }
+
+    &__deliver_v {
+        @extend %details__values;
+        grid-area: 7 / 11 / 8 / 13;
+    }
+
+    &__year_v {
+        @extend %details__values;
+        grid-area: 8 / 11 / 9 / 13;
+    }
+
+    &__field_v {
+        @extend %details__values;
+        grid-area: 9 / 11 / 10 / 13;
+    }
+}
+
+%details__content {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    font-family: variables.$text_font;
+    color: variables.$text_color;
+    opacity: 0.5;
+}
+
+%details__values {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    font-family: variables.$text_font;
+    color: variables.$text_color;
 }

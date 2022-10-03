@@ -97,8 +97,116 @@
   line-height: 26px;
   font-family: "Mulish", sans-serif;
   color: #111111;
-  mix-blend-mode: normal;
   opacity: 0.8;
+}
+
+.details {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 6;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 4;
+  grid-area: 4/9/10/13;
+}
+.details__project {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 1;
+  grid-area: 4/9/5/10;
+}
+.details__design {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 1;
+  grid-area: 5/9/6/10;
+}
+.details__client {
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 1;
+  grid-area: 6/9/7/10;
+}
+.details__deliver {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 1;
+  grid-area: 7/9/8/10;
+}
+.details__year {
+  -ms-grid-row: 8;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 1;
+  grid-area: 8/9/9/10;
+}
+.details__field {
+  -ms-grid-row: 9;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 1;
+  grid-area: 9/9/10/10;
+}
+.details__project_v {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 2;
+  grid-area: 4/11/5/13;
+}
+.details__design_v {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 2;
+  grid-area: 5/11/6/13;
+}
+.details__client_v {
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 2;
+  grid-area: 6/11/7/13;
+}
+.details__deliver_v {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 2;
+  grid-area: 7/11/8/13;
+}
+.details__year_v {
+  -ms-grid-row: 8;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 2;
+  grid-area: 8/11/9/13;
+}
+.details__field_v {
+  -ms-grid-row: 9;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 2;
+  grid-area: 9/11/10/13;
+}
+
+.details__project, .details__design, .details__client, .details__deliver, .details__year, .details__field {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  font-family: "Mulish", sans-serif;
+  color: #111111;
+  opacity: 0.5;
+}
+
+.details__project_v, .details__design_v, .details__client_v, .details__deliver_v, .details__year_v, .details__field_v {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  font-family: "Mulish", sans-serif;
+  color: #111111;
 }
 
 body {
