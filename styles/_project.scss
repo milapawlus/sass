@@ -163,3 +163,32 @@
     width: 100%;
     height: 100%;
 }
+
+.paragraph2 {
+    @extend %paragraph__content;
+    grid-area: 20 / 1 / 22 / 13;
+}
+
+.images {
+    grid-area: 22 / 1 / 27 / 13;
+
+    &__img1 {
+        @extend %img_details;
+        grid-area: 22 / 1 / 27 / 5;
+    }
+
+    &__img2 {
+        @extend %img_details;
+        grid-area: 22 / 5 / 27 / 9;
+    }
+
+    &__img3 {
+        @extend %img_details;
+        grid-area: 22 / 9 / 27 /13;
+    }
+}
+
+%img_details {
+    width: 100%;
+    height: 100%;
+}
