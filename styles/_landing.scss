@@ -14,7 +14,6 @@
     grid-area: 2 / 1 / 3 / 13;
 
     &__logo {
-        @extend %nav__icons;
         display: flex;
         align-items: center;
     }
