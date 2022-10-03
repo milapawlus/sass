@@ -79,6 +79,48 @@
   opacity: 0.6;
 }
 
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 5;
+  grid-area: 4/8/8/13;
+}
+.form__label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Mulish", sans-serif;
+  color: #111111;
+  opacity: 0.6;
+}
+.form__input {
+  border: none;
+  resize: none;
+  outline: none;
+}
+.form__btn {
+  width: 125px;
+  height: 50px;
+  background: #4A4FF2;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+  text-align: center;
+  color: #FFFFFF;
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;

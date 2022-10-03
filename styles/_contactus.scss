@@ -61,3 +61,37 @@
         opacity: 0.6;
     }
 }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-area: 4 / 8 / 8 / 13 ;
+
+    &__label {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        font-family: variables.$text_font;
+        color: variables.$text_color;
+        opacity: 0.6;
+    }
+
+    &__input {
+        border: none;
+        resize: none;
+        outline: none;
+    }
+
+    &__btn {
+        width: 125px;
+        height: 50px;
+        background: #4A4FF2;
+        font-family: variables.$text_font;
+        font-size: 16px;
+        line-height: 20px;
+        border: none;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
