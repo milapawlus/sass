@@ -273,18 +273,22 @@
     }
 
     &__desc1 {
+        @extend %group__content;
         grid-area: 42 / 9 / 43 / 11;
     }
 
     &__desc2 {
+        @extend %group__content;
         grid-area: 45 / 9 / 46 / 11;
     }
 
     &__desc3 {
+        @extend %group__content;
         grid-area: 48 / 9 / 49 / 11;
     }
 
     &__desc4 {
+        @extend %group__content;
         grid-area: 51 / 9 / 52 / 11;
     }
 
@@ -295,7 +299,7 @@
 
     &__line2 {
         @extend %line__content;
-        grid-area: 46 / 1 / 46 / 13;
+        grid-area: 47 / 1 / 48 / 13;
     }
 
     &__line3 {
