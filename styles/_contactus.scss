@@ -6,7 +6,7 @@
     column-gap: 18px;
     width: 80%;
     height: 100%;
-    background-color: aquamarine;
+    // background-color: aquamarine;
 }
 
 .nav {
@@ -39,4 +39,25 @@
     font-size: 18px;
     color: variables.$text_color;
     font-family: variables.$text_font;
+}
+
+.heading {
+    grid-area: 4 / 1 / 7 / 5;
+
+    &__1 {
+        grid-area: 3 / 1 / 6 / 5;
+        font-style: normal;
+        font-size: 35px;
+        line-height: 55px;
+        font-family: variables.$text_font;
+        color: variables.$text_color;
+    }
+
+    &__caption {
+        grid-area: 6 / 1 / 7 / 5;
+        font-size: 14px;
+        font-family: variables.$text_font;
+        color: variables.$text_color;
+        opacity: 0.6;
+    }
 }
